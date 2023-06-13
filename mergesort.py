@@ -31,3 +31,9 @@ def merge_sort(arr):
 arr_test = [2, 3, 5, 7, 4, 4, 6, 9, 8, 1]
 merge_sort(arr_test)
 print(*arr_test)
+
+""" Output
+
+1 2 3 4 4 5 6 7 8 9
+
+"""
