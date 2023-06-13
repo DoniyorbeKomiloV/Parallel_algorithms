@@ -72,9 +72,31 @@ for i in range(3, 9):
 	print(f"Merge sort: {(t2-t1):.2f} ms")
 	print(f"Quick sort: {(t3-t2):.2f} ms")
 
-		
 
-
-
-
-
+""" Output
+========================================
+Test 1: Elements: 1000
+Merge sort: 3.49 ms
+Quick sort: 2.18 ms
+========================================
+Test 2: Elements: 10000
+Merge sort: 38.77 ms
+Quick sort: 29.26 ms
+========================================
+Test 3: Elements: 100000
+Merge sort: 478.12 ms
+Quick sort: 345.16 ms
+========================================
+Test 4: Elements: 1000000
+Merge sort: 5956.51 ms
+Quick sort: 4437.77 ms
+========================================
+Test 5: Elements: 10000000
+Merge sort: 73887.08 ms
+Quick sort: 61064.50 ms
+========================================
+Test 6: Elements: 100000000
+Merge sort: 901299.85 ms
+Quick sort: 852340.80 ms
+========================================
+"""
