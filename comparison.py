@@ -57,7 +57,7 @@ def merge_sort(arr):
 			k += 1	
 
 
-for i in range(3, 10):
+for i in range(3, 9):
 	noe = 10**i
 	arr = []
 	for j in range(noe):
