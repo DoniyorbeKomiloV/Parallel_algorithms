@@ -26,5 +26,11 @@ def partition(arr, left, right):
 
 
 arr = [11, 55, 66, 33, 88, 22, 44, 99, 77]
-quicksort(arr, 0, len(arr)-1)
+quick_sort(arr, 0, len(arr)-1)
 print(*arr)
+
+""" Output
+
+11 22 33 44 55 66 77 88 99
+
+"""
